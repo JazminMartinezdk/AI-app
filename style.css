@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fdf2f8;
+}
+
+
+h1 {
+    margin-top: 25px;
+    font-size: 48px;
+    color: #d63384;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+    color: #333;
+}
+
+
+.hero-image {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls select,
+.controls input,
+.controls button {
+    width: 90%;
+    max-width: 500px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+
+select {
+    border: 2px solid #d63384;
+    background-color: white;
+    color: #333;
+}
+
+
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0256a;
+}
+
+#output {
+    font-size: 18px;
+    text-align: left;
+    white-space: pre-wrap;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid #d63384;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 700px) {
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    p {
+        font-size: 5vw;
+    }
+
+    .controls select,
+    .controls input,
+    .controls button {
+        font-size: 5vw;
+    }
+
+    #output {
+        font-size: 4.5vw;
+    }
+
+    .hero-image {
+        width: 95%;
+        max-width: 100%;
+    }
+}

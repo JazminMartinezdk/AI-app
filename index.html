@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h1 style="font-size:10vw;">Muscle mami workout</h1>
+
+<p style="font-size:5vw;">Join our community of muscle mamis</p>
+
+<img src="pexels-scottwebb-28054.jpg" alt="Description" class="hero-image">
+
+
+<p style="font-size:5vw;">Generate easy and free a personalized workout</p>
+
+<div class="controls">
+    <label for="Workout">Choose a Workout:</label>
+    <br>
+    <select name="workout" id="workout-select">
+        <option value="">--Please choose an option--</option>
+        <option value="fullbody">Fullbody</option>
+        <option value="back">Back</option>
+        <option value="legs">Legs</option>
+        <option value="glutes">Glutes</option>
+        <option value="bicep">Biceps</option>
+    </select>
+    <br><br>
+
+    <label for="api-key-input">Enter your API key:</label><br>
+    <input type="password" id="api-key-input" placeholder="Paste your API key here" style="width: 90%; margin-top: 5px;">
+    <br><br>
+    <button type="button" id="generateBtn">Generate</button>
+</div>
+
+<p id="output"></p>
+
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
